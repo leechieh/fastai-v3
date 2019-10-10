@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1-HilkIWGeE6kBmjzFxg98gCuHqY6DgFs?alt=media&key=AIzaSyA7NSst4uYg6v_yjjvc8oMIz4zqDClCAYI'
+export_file_url = 'https://www.dropbox.com/s/tgcuvykuwcvjm44/export.pkl?dl=1'
 export_file_name = 'export.pkl'
 
 classes = ['Affenpinscher', 'Afghan Hound', 'African Hunting Dog', 'Airedale', 'American Staffordshire Terrier', 'Appenzeller', 'Basenji', 'Basset', 'Beagle', 'Bedlington Terrier',
